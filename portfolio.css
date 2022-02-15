@@ -35,9 +35,10 @@
 
     }
 #container{
-background-image: url("https://www.worldgbc.org/sites/default/files/Content%20pages%20UKGBC%20Net%20Zero%20Carbon%20Buildings%20Framework%20Definition_0.jpg");
-height: 100%;
+background-image: url("https://media.istockphoto.com/photos/abstract-background-wallpaper-picture-id952039286?b=1&k=20&m=952039286&s=170667a&w=0&h=LmOcMt7FHxFUAr2bOSfTUPV9sQhME6ABtAYLM0cMkR4=");
 width: 100%;
+border-radius: 15px;
+
 }    
 
 #box{
@@ -45,6 +46,8 @@ width: 100%;
     flex-direction: row;
   justify-content: center;
     align-items: center;
+    margin-left: 56px;
+    margin-right: 57px;
 }
 img{
     width: 330px;
@@ -60,8 +63,37 @@ img{
      height: 447px;
      width: 321px;
      margin-top: 50px;
+     animation-name: example;
+  animation-duration: 4s;
+  
+}
+@keyframes example {
+  0%   {background-color: rgb(224, 80, 80);}
+  25%  {background-color: rgb(209, 209, 29);}
+  50%  {background-color: rgb(65, 65, 238);}
+  100% {background-color: rgb(22, 199, 66);}
 }
 .about{
     margin-top: 23px;
     font-size: x-large;
+}
+#aboutMySkills{
+  display: flex;
+    flex-direction: row;
+  justify-content: space-evenly;
+    align-items: center;
+    margin-left: 56px;
+    margin-right: 57px;
+
+}
+.html
+{ background-color: aquamarine;
+  align-items: center;
+  border: #104c64 solid 3px;
+  height: 198px;
+  width: 300px;
+  border-radius: 43px;
+  margin-top: 40px;
+  padding-top: 50px;
+  padding-left: 8px;
 }
